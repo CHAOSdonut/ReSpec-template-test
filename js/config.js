@@ -1,9 +1,9 @@
 var respecConfig =
 {
   //voor specStatus mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specStatus
-  specStatus: "WV",
+  specStatus: "basis",
   //voor specType mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specType
-  specType: "HR",
+  specType: "basis",
   pubDomain: "dk",
   shortName: "template",
   publishDate: "2022-06-24",
@@ -14,7 +14,7 @@ var respecConfig =
   editors:
     [
       {
-        name: "Logius Standaarden",
+        name: "Rick de Bruijn",
         company: "Logius",
         companyURL: "https://github.com/Logius-standaarden",
       }
@@ -22,12 +22,12 @@ var respecConfig =
   authors:
     [
       {
-        name: "Logius Standaarden",
+        name: "Rick de Bruijn",
         company: "Logius",
         companyURL: "https://github.com/Logius-standaarden",
       }
     ],
-  github: "https://github.com/Logius-standaarden/API-Design-Rules",
+  github: "https://github.com/CHAOSdonut/ReSpec-template-test",
   
   
  // Controls if linked "§" section markers are added to a document
