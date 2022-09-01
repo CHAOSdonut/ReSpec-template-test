@@ -34,8 +34,9 @@ gebruiksvriendelijk is.
 
 ### Diepgang problemen
 Het <a>Logius</a> profiel is open source en samenwerking is erg belangrijk. 
-Daarom worden de problemen en verbeterpunten gedeeld via [issues](https://github.com/Logius-standaarden/respec/issues) op de
-github van Logius-standaarden. Daar zijn de specifieke problemen te vinden.
+Daarom worden de problemen en verbeterpunten gedeeld via [issues](https://github.com/Logius-standaarden/respec/issues) 
+op de github van Logius-standaarden. Daar zijn de specifieke problemen 
+te vinden.
 
 ### Doelstelling
 Het doel van dit onderzoeksproces is dat er een lijst met issues publiek
