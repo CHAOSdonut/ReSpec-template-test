@@ -7,4 +7,6 @@ profiel te kunnen testen.
 Na het pushen van een nieuwe versie word er automatisch een snapshot 
 van het document gemaakt. U kunt het document lezen in de doc.pdf
 
+
+
 [open documentatie](doc.pdf)
