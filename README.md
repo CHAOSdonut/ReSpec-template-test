@@ -5,8 +5,7 @@ het is bovendien een goede manier om de gebruiksvriendelijkheid van het
 profiel te kunnen testen.
 
 Na het pushen van een nieuwe versie word er automatisch een snapshot 
-van het document gemaakt. U kunt het document lezen in de doc.pdf
+van het document gemaakt. De snapshot.html file kan gehost worden om
+anderen toegang te geven to het document.
 
-
-
-[open documentatie](doc.pdf)
+Er word ook een PDF gegenereerd: [open documentatie](doc.pdf)
