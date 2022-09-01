@@ -1,7 +1,10 @@
-## Template document ReSpec
+## Documentatie stage Logius-ReSpec-profiel
 
-Gebruik de knop [_Use this template_](https://github.com/Logius-standaarden/ReSpec-template/generate) om aan de slag te gaan.
+Dit document bevat de documentatie voor mijn stage bij Logius 
+het is bovendien een goede manier om de gebruiksvriendelijkheid van het 
+profiel te kunnen testen.
 
-Dynamische pagina [hier](https://logius-standaarden.github.io/ReSpec-template/) te zien.
+Na het pushen van een nieuwe versie word er automatisch een snapshot 
+van het document gemaakt. U kunt het document lezen in de doc.pdf
 
-Deze repository bevat ook de GitHub Workflows om een statische HTML-pagina en PDF-document te genereren en enkele controles uit te voeren.
+[open documentatie](doc.pdf)
