@@ -2,14 +2,14 @@
 
 ## Probleemanalyse
 ### Wat is het probleem?
-<a>Logius</a> heeft een eigen profiel aan gemaakt binnen <a>ReSpec</a>, een stuk code 
-die help bij het maken van markdown documentatie. Dit profiel is in de 
+<a>Logius</a> heeft een eigen <a>profiel</a> aan gemaakt binnen <a>ReSpec</a>, een stuk code 
+die help bij het maken van markdown documentatie. Dit <a>profiel</a> is in de 
 eerste fase en is nog niet erg gebruiksvriendelijk.  
-Het doel is uiteindelijk dat het profiel gebruikt kan worden door
+Het doel is uiteindelijk dat het <a>profiel</a> gebruikt kan worden door
 derde partijen voor het realiseren van eigen documentatie.
 
 ### Afbakening en relevantie
-Het project focust zich op het ReSpec profiel en het template. Dit
+Het project focust zich op het ReSpec <a>profiel</a> en het template. Dit
 zijn dingen zoals de code, gebruikersinteractie en documentatie.
 
 ### Wie heeft het probleem?
@@ -19,28 +19,28 @@ te leiden zijn afspraken nodig. Deze afspraken kunnen zijn over hoe
 een document er uit moet zien, maar ook over hoe informatie verzonden word. 
 De afdeling standaarden van <a>Logius</a> beheerd 
 standaarden om die communicatie tussen burger, bedrijf en overheid zo 
-soepel mogelijk te laten verlopen. Het <a>ReSpec</a> profiel helpt met het 
+soepel mogelijk te laten verlopen. Het <a>ReSpec</a> <a>profiel</a> helpt met het 
 schrijven van documentatie, maar als het niet gebruiksvriendelijk is
 zal het niet gebruikt worden.
 
 ### Onderzoeksproces
 Het onderzoek zal een doorlopend proces zijn, iedere feature zal getest moeten 
 worden. Om te kunnen testen hoe het is om een gebruiker te zijn van het 
-profiel schrijf ik de documentatie voor mijn stageopdracht in dit document
-die gebruik maakt van <a>ReSpec</a> en het Logius-profiel. Er zijn ook 
-ander overheden die potentie zien in het profiel, zij kunnen ook
-helpen in het proces om te kijken of het profiel wel echt 
+<a>profiel</a> schrijf ik de documentatie voor mijn stageopdracht in dit document
+die gebruik maakt van <a>ReSpec</a> en het Logius-<a>profiel</a>. Er zijn ook 
+ander overheden die potentie zien in het <a>profiel</a>, zij kunnen ook
+helpen in het proces om te kijken of het <a>profiel</a> wel echt 
 gebruiksvriendelijk is.
 
 ### Diepgang problemen
-Het <a>Logius</a> profiel is open source en samenwerking is erg belangrijk. 
+Het <a>Logius</a> <a>profiel</a> is open source en samenwerking is erg belangrijk. 
 Daarom worden de problemen en verbeterpunten gedeeld via [issues](https://github.com/Logius-standaarden/respec/issues) 
 op de github van Logius-standaarden. Daar zijn de specifieke problemen 
 te vinden.
 
 ### Doelstelling
 Het doel van dit onderzoeksproces is dat er een lijst met issues publiek
-toegankelijk is die gebruikt kan worden bij het verbeteren van het profiel.
+toegankelijk is die gebruikt kan worden bij het verbeteren van het <a>profiel</a>.
 
 ## Het bedrijfsbezoek
 Ingeplanned op: *vervallen*

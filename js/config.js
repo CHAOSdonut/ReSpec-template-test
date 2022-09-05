@@ -6,7 +6,7 @@ var respecConfig =
   specType: "basis",
   pubDomain: "dk",
   shortName: "template",
-  publishDate: "2022-06-24",
+  publishDate: new Date().toISOString().slice(0, 10),
   publishVersion: "0.0.1",
   // previousPublishVersion: "(none)",
   //  previousPublishDate: "(none)",
