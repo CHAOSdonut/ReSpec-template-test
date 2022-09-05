@@ -228,7 +228,7 @@ de huidige status van de opdracht. </p>
 <p><a href="https://respec.org/docs/">ReSpec documentatie</a></p>
 </section><section id="wat-is-een-respec-profiel"><div class="header-wrapper"><h3 id="x1-4-wat-is-een-respec-profiel"><bdi class="secno">1.4 </bdi>Wat is een ReSpec profiel</h3><a class="self-link" href="#wat-is-een-respec-profiel" aria-label="Permalink for Section 1.4"></a></div>
 <p>Een <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-2">ReSpec</a> <dfn id="dfn-profiel" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">profiel</dfn> is een combinatie van JavaScript code, HTML en
-CSS. Door het maken van een profiel kan je de functionaliteit van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-3">ReSpec</a> uitbreiden en een bepaalde standaard
+CSS. Deze files worden door <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-3">ReSpec</a> plugins genoemd. Door het maken van een profiel kan je de functionaliteit van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-4">ReSpec</a> uitbreiden en een bepaalde standaard
 forceren in de documentatie gemaakt met het profiel. Verder kunnen er automatisch testen geconfigureerd worden voor
 bijvoorbeeld toegankelijkheid, denk hierbij aan kleurcontrasten voor mensen die kleurenblind zijn en 
 afbeeldingbeschrijving voor slechtziende.</p>
@@ -240,14 +240,14 @@ afbeeldingbeschrijving voor slechtziende.</p>
 <p><a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-2">Logius</a> beheert een aantal standaarden die effectieve en veilige gegevensuitwisseling mogelijk maken tussen 
 overheden onderling en tussen overheden, burgers en bedrijven. De afdeling standaarden draagt bij aan de kwaliteit van 
 dat beheer en bevordert zowel standaardisatie als het juiste gebruik van open standaarden. Als documentatietool wordt 
-gebruik gemaakt van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-4">ReSpec</a>, een tool om technische documentatie op basis van Markdown te genereren. <a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-3">Logius</a> 
+gebruik gemaakt van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-5">ReSpec</a>, een tool om technische documentatie op basis van Markdown te genereren. <a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-3">Logius</a> 
 heeft hiervoor een eigen <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-2">profiel</a> ontwikkeld. Zie  <a href="https://publicatie.centrumvoorstandaarden.nl/">https://publicatie.centrumvoorstandaarden.nl/</a> 
 en <a href="https://github.com/Logius-standaarden/respec">https://github.com/Logius-standaarden/respec</a> voor meer informatie over onze <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-3">profiel</a>en.
 In deze stage ga ik me bezighouden met het verder ontwikkelen van dit <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-4">profiel</a> om het ook bruikbaar te maken voor andere 
 overheidsorganisaties. Onderdeel van de opdracht is het door ontwikkelen en onderhouden van de JavaScript Code, het 
 uitbreiden van de functionaliteit en het ondersteunen van de community met voorbeelden en uitleg.</p>
 </section><section id="kern-van-de-opdracht"><div class="header-wrapper"><h3 id="x2-2-kern-van-de-opdracht"><bdi class="secno">2.2 </bdi>Kern van de opdracht</h3><a class="self-link" href="#kern-van-de-opdracht" aria-label="Permalink for Section 2.2"></a></div>
-<p>In deze stage ga ik me bezighouden met het verder ontwikkelen van het <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-5">ReSpec</a> <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-5">profiel</a> om het ook bruikbaar te 
+<p>In deze stage ga ik me bezighouden met het verder ontwikkelen van het <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-6">ReSpec</a> <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-5">profiel</a> om het ook bruikbaar te 
 maken voor andere overheidsorganisaties.
 In het huidige <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-6">profiel</a> zijn parameters niet of beperkt instelbaar, Bedoeling is dat het profiel configureerbaar wordt 
 zodat andere overheidsorganisaties eenvoudig een eigen <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-7">profiel</a> kunnen maken voor hun technische 
@@ -255,7 +255,7 @@ specificaties / documentatie.
 Onderdeel van de opdracht is het door ontwikkelen en onderhouden van de JavaScript Code, het uitbreiden van de 
 functionaliteit (bv het bijblijven met de ontwikkelingen in de w3c versie, en automatische controles) en het 
 ondersteunen van de community met voorbeelden en uitleg.
-Voorbeeld van een <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-6">ReSpec</a> document opgemaakt met het Logius-<a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-8">profiel</a>:
+Voorbeeld van een <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-7">ReSpec</a> document opgemaakt met het Logius-<a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-8">profiel</a>:
 <a href="https://publicatie.centrumvoorstandaarden.nl/dk/restapi/">Digikoppeling Koppelvlakstandaard REST-API 1.0.0 (centrumvoorstandaarden.nl)</a></p>
 </section><section id="enkele-relevante-links"><div class="header-wrapper"><h3 id="x2-3-enkele-relevante-links"><bdi class="secno">2.3 </bdi>Enkele Relevante links</h3><a class="self-link" href="#enkele-relevante-links" aria-label="Permalink for Section 2.3"></a></div>
 <ul>
@@ -280,10 +280,10 @@ Na het testen of een nieuwe feature naar behoren werkt kan er een pull-request
 gedaan worden. Als die goedgekeurd word zal het <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-11">profiel</a> de nieuwe feature
 hebben. Nu kan er verder gewerkt worden aan nieuwe features.</p>
 </section><section id="begin-status-codebase"><div class="header-wrapper"><h4 id="x2-4-2-begin-status-codebase"><bdi class="secno">2.4.2 </bdi>Begin status codebase</h4><a class="self-link" href="#begin-status-codebase" aria-label="Permalink for Section 2.4.2"></a></div>
-<p>Het project is begonnen met de standaard codebase van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-7">ReSpec</a>. <a href="https://www.geonovum.nl/">Geonovum</a> heeft hierop 
+<p>Het project is begonnen met de standaard codebase van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-8">ReSpec</a>. <a href="https://www.geonovum.nl/">Geonovum</a> heeft hierop 
 een <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-12">profiel</a> gebouwd voor het schrijven van hun documentatie. Daarna heeft <a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-5">Logius</a> een eigen <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-13">profiel</a>
 gemaakt op die van Geonovum.  </p>
-<p><a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-8">ReSpec</a> is origineel vooral gefocust om het schrijven van documentatie met HTML. De <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-14">profiel</a>en van Geonovum 
+<p><a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-9">ReSpec</a> is origineel vooral gefocust om het schrijven van documentatie met HTML. De <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-14">profiel</a>en van Geonovum 
 en <a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-6">Logius</a> zijn gefocust op <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> voor het schrijven van de 
 documentatie omdat markdown makkelijker in gebruik is.</p>
 <p>Er zijn ook al enkele testen ingebouwd voor het controleren of het document wel toegankelijk is.</p>
@@ -309,7 +309,7 @@ gebruik zonder achterliggende kennis in de werking van het <a href="#dfn-profiel
   <section id="documentatie-voor-goedkeuring-stage"><div class="header-wrapper"><h2 id="x3-documentatie-voor-goedkeuring-stage"><bdi class="secno">3. </bdi>Documentatie voor goedkeuring stage</h2><a class="self-link" href="#documentatie-voor-goedkeuring-stage" aria-label="Permalink for Section 3."></a></div>
 <section id="probleemanalyse"><div class="header-wrapper"><h3 id="x3-1-probleemanalyse"><bdi class="secno">3.1 </bdi>Probleemanalyse</h3><a class="self-link" href="#probleemanalyse" aria-label="Permalink for Section 3.1"></a></div>
 <section id="wat-is-het-probleem"><div class="header-wrapper"><h4 id="x3-1-1-wat-is-het-probleem"><bdi class="secno">3.1.1 </bdi>Wat is het probleem?</h4><a class="self-link" href="#wat-is-het-probleem" aria-label="Permalink for Section 3.1.1"></a></div>
-<p><a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-7">Logius</a> heeft een eigen <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-16">profiel</a> aan gemaakt binnen <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-9">ReSpec</a>, een stuk code 
+<p><a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-7">Logius</a> heeft een eigen <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-16">profiel</a> aan gemaakt binnen <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-10">ReSpec</a>, een stuk code 
 die help bij het maken van markdown documentatie. Dit <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-17">profiel</a> is in de 
 eerste fase en is nog niet erg gebruiksvriendelijk.<br>Het doel is uiteindelijk dat het <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-18">profiel</a> gebruikt kan worden door
 derde partijen voor het realiseren van eigen documentatie.</p>
@@ -323,14 +323,14 @@ te leiden zijn afspraken nodig. Deze afspraken kunnen zijn over hoe
 een document er uit moet zien, maar ook over hoe informatie verzonden word. 
 De afdeling standaarden van <a href="#dfn-logius" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-logius-8">Logius</a> beheerd 
 standaarden om die communicatie tussen burger, bedrijf en overheid zo 
-soepel mogelijk te laten verlopen. Het <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-10">ReSpec</a> <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-20">profiel</a> helpt met het 
+soepel mogelijk te laten verlopen. Het <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-11">ReSpec</a> <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-20">profiel</a> helpt met het 
 schrijven van documentatie, maar als het niet gebruiksvriendelijk is
 zal het niet gebruikt worden.</p>
 </section><section id="onderzoeksproces"><div class="header-wrapper"><h4 id="x3-1-4-onderzoeksproces"><bdi class="secno">3.1.4 </bdi>Onderzoeksproces</h4><a class="self-link" href="#onderzoeksproces" aria-label="Permalink for Section 3.1.4"></a></div>
 <p>Het onderzoek zal een doorlopend proces zijn, iedere feature zal getest moeten 
 worden. Om te kunnen testen hoe het is om een gebruiker te zijn van het 
 <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-21">profiel</a> schrijf ik de documentatie voor mijn stageopdracht in dit document
-die gebruik maakt van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-11">ReSpec</a> en het Logius-<a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-22">profiel</a>. Er zijn ook 
+die gebruik maakt van <a href="#dfn-respec" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-respec-12">ReSpec</a> en het Logius-<a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-22">profiel</a>. Er zijn ook 
 ander overheden die potentie zien in het <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-23">profiel</a>, zij kunnen ook
 helpen in het proces om te kijken of het <a href="#dfn-profiel" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-profiel-24">profiel</a> wel echt 
 gebruiksvriendelijk is.</p>
@@ -413,19 +413,19 @@ In overleg is besproken om het bedrijfsbezoek te combineren met Inleveren stagev
     <li>
     <a href="#ref-for-dfn-respec-1" title="§ Samenvatting">§ Samenvatting</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-2" title="§ 1.4 Wat is een ReSpec profiel">§ 1.4 Wat is een ReSpec profiel</a> <a href="#ref-for-dfn-respec-3" title="Reference 2">(2)</a> 
+    <a href="#ref-for-dfn-respec-2" title="§ 1.4 Wat is een ReSpec profiel">§ 1.4 Wat is een ReSpec profiel</a> <a href="#ref-for-dfn-respec-3" title="Reference 2">(2)</a> <a href="#ref-for-dfn-respec-4" title="Reference 3">(3)</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-4" title="§ 2.1 Wat ga ik doen?">§ 2.1 Wat ga ik doen?</a> 
+    <a href="#ref-for-dfn-respec-5" title="§ 2.1 Wat ga ik doen?">§ 2.1 Wat ga ik doen?</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-5" title="§ 2.2 Kern van de opdracht">§ 2.2 Kern van de opdracht</a> <a href="#ref-for-dfn-respec-6" title="Reference 2">(2)</a> 
+    <a href="#ref-for-dfn-respec-6" title="§ 2.2 Kern van de opdracht">§ 2.2 Kern van de opdracht</a> <a href="#ref-for-dfn-respec-7" title="Reference 2">(2)</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-7" title="§ 2.4.2 Begin status codebase">§ 2.4.2 Begin status codebase</a> <a href="#ref-for-dfn-respec-8" title="Reference 2">(2)</a> 
+    <a href="#ref-for-dfn-respec-8" title="§ 2.4.2 Begin status codebase">§ 2.4.2 Begin status codebase</a> <a href="#ref-for-dfn-respec-9" title="Reference 2">(2)</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-9" title="§ 3.1.1 Wat is het probleem?">§ 3.1.1 Wat is het probleem?</a> 
+    <a href="#ref-for-dfn-respec-10" title="§ 3.1.1 Wat is het probleem?">§ 3.1.1 Wat is het probleem?</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-10" title="§ 3.1.3 Wie heeft het probleem?">§ 3.1.3 Wie heeft het probleem?</a> 
+    <a href="#ref-for-dfn-respec-11" title="§ 3.1.3 Wie heeft het probleem?">§ 3.1.3 Wie heeft het probleem?</a> 
   </li><li>
-    <a href="#ref-for-dfn-respec-11" title="§ 3.1.4 Onderzoeksproces">§ 3.1.4 Onderzoeksproces</a> 
+    <a href="#ref-for-dfn-respec-12" title="§ 3.1.4 Onderzoeksproces">§ 3.1.4 Onderzoeksproces</a> 
   </li>
   </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-profiel" aria-label="Links in this document to definition: profiel">
