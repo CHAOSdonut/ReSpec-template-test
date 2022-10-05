@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-const documentConfig = {
+const config = {
   useLogo: true,
   useSideBar: true,
   license: "cc0",
