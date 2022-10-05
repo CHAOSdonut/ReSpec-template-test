@@ -10,8 +10,8 @@ const config = {
   // subtitle: "Hier komt een subtitle",
   shortName: "API-Design-Rules",
 
-  publishDate: "2020-09-20",
-  previousPublishDate: "2018-10-07",
+  publishDate: "2022-10-05",
+  previousPublishDate: "2020-09-20",
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
   // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
   previousMaturity: "DEF",
