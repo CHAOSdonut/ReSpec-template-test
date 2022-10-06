@@ -4,7 +4,7 @@ const config = {
   useSideBar: true,
   license: "cc0",
   specType: "def",
-  specStatus: "cv",
+  specStatus: "def",
   govTextCode: "AA",
 
   // subtitle: "Hier komt een subtitle",
