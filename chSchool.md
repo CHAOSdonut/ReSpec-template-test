@@ -42,6 +42,19 @@ te vinden.
 Het doel van dit onderzoeksproces is dat er een lijst met issues publiek
 toegankelijk is die gebruikt kan worden bij het verbeteren van het <a>profiel</a>.
 
+## Beroepstaken
+| Beroepstaak | Werkzaamheden | (tussen)product |
+|---|---|---|
+| A-1 Analyseren probleemdomein & opstellen probleemstelling | Het in kaart brengen wat er nu al bestaat en wat er gedaan moet worden om het bruikbaar te maken voor 3e partijen | Rapport probleemanalyse |
+| G-c Kritisch, onderzoekend & methodisch werken | Dit zal bij alles wat ik doe wel in een of andere vorm terugkomen | | 
+| G-f Leren leren: voorbereiden op volgende studiefase en beroep | In het stageproces zal ik veel feedback vragen waardoor je veel kan leren en ander inzichten kan vergaren | |
+| A-2 Informatie vergaren, analyseren & verwerken | Ook dit zal de hele stage proces wel aan bod komen, maar vooral in het begin als er een overzicht gemaakt word van wat er al is en wat er nog moet komen | Probleemanalyse |
+| G-a Effectief (internationaal) communiceren | In het hele stageproces zal er veelgecommuniceerd worden met de afdeling standaarden en in het bijzonder met de opdrachtgever | |
+| D-1 Reasliseren software | Om het gewenste eindproduct te kunnen leveren moet er software gemakt worden | ReSpec profiel (eindproduct) |
+| D-2 Testen & evalueren | Het eindproduct moet professioneel in elkaar zitten en moet dus zoveel mogelijk bug free zijn. Daarom zal er veel getest moeten worden | test rapport |
+| C-1 Ontwerpen software | Om goede software te schrijven moet er van te voren een goed plan staan | Beschrijving huidige structuur/developer guide |
+| C-6 Ontwerp human computer interaction | Omdat het eindproduct goed bruikbaar moet zijn voor derde partijen is het belangerijk dat het een goede interface heeft en dat er goede documentatie is. | User guide | 
+
 ## Het bedrijfsbezoek
 Ingeplanned op: *vervallen*
 
