@@ -15,7 +15,7 @@ const organisationConfig = {
     width: 44,
     url: "https://www.logius.nl/standaarden",
   },
-  // preProcess: [mdAddFigure],
+  postProcess: [window.respecMermaid.createFigures],
 
   governanceTypeText: {
     nl: {
