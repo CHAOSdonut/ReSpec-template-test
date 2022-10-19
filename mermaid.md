@@ -1,7 +1,7 @@
 ## Mermaid
 
 <figure>
-  <pre class="diagram mermaid" width="312" height="445">
+  <pre class="diagram mermaid">
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     John-->>Alice: Great!
