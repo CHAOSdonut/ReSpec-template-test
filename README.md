@@ -12,9 +12,4 @@ Er word ook een PDF gegenereerd: [open documentatie](doc.pdf)
 
 ```mermaid
 graph info
-  main
-  subgraph sub
-    aaaaaa
-  end
-  main-->sub
 ```
