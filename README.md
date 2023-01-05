@@ -9,22 +9,3 @@ van het document gemaakt. De snapshot.html file kan gehost worden om
 anderen toegang te geven to het document.
 
 Er word ook een PDF gegenereerd: [open documentatie](doc.pdf)
-
-```mermaid
-graph TB
-    main
-    subgraph sub
-        aaa  
-    end
-    main-->sub
-```
-
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
