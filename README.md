@@ -11,7 +11,7 @@ anderen toegang te geven to het document.
 Er word ook een PDF gegenereerd: [open documentatie](doc.pdf)
 
 ```mermaid
-graph TB
+graph info
   main
   subgraph sub
     aaaaaa
