@@ -9,3 +9,10 @@ van het document gemaakt. De snapshot.html file kan gehost worden om
 anderen toegang te geven to het document.
 
 Er word ook een PDF gegenereerd: [open documentatie](doc.pdf)
+
+graph TB
+  main
+  subgraph sub
+    aaaaaa
+  end
+  main-->sub
