@@ -14,7 +14,7 @@ Er word ook een PDF gegenereerd: [open documentatie](doc.pdf)
 graph TB
     main
     subgraph sub
-      
+        aaa  
     end
     main-->sub
 ```
